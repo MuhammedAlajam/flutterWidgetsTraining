@@ -6,7 +6,7 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: 20,
+      itemCount: 30,
       itemBuilder: (BuildContext context, int index) {
         return ListTile(
           title: Text('person : ${index + 1}'),
